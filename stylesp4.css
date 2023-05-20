@@ -1,0 +1,121 @@
+/*Général*/
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.aligncenter{
+    display: flex;
+    align-items: center;
+}
+.colorwhite{
+    color: white;
+}
+.backgroundgrey{
+background: #D2D2D2;
+}
+.marginL{
+    margin-left: 20px;
+}
+
+
+/* HEADER */
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    padding-top: 14px;
+}
+.location{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: 
+    #EAEAEA;
+}
+i{
+    align-items: center;
+}
+
+
+/* Main */ 
+.buttongradient{
+    width: 218px;
+    height: 50px;
+    border-radius: 25px;
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+}
+.buttonshadow{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+/* Fonctionnement */
+.filtres{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 29px;
+    margin-bottom: 29px;
+
+}
+.bordernumber{
+    width: 24px;
+    height: 24px;
+    border:#9356DC 1px solid;
+    background-color: #9356DC;
+    border-radius: 20px;
+}
+.bordericonetitre{
+    border: 1px solid #f6f6f6;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+}
+.backgroundfonctionnement{
+    background-color: #F6F6F6;
+}
+/* Restaurants */
+.restaurants{
+    width: 100%;
+}
+.restaurants-cards {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    gap:20px;
+    
+}
+.imgcontainer{
+    overflow: hidden;
+    height: 231px;
+}
+.restaurant-card img{
+    object-fit: initial;
+    height: auto;
+    width: 100%;
+    
+}
+.restaurant-card-title{
+    font-size: 18px;
+}
+
+/* Footer */
+.backgroundblack{
+    background-color: #353535;
+    padding: 22px 25px;
+}
+.logocolor{
+    color: #FFFFFF;
+}
+.ifooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.marginLfooter{
+    margin-left: 10px;
+}
