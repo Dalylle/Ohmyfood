@@ -5,19 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesp4.css">
+    <link rel="stylesheet" href="animations.css">
     <script src="https://kit.fontawesome.com/2ca84574fd.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
-    <title>OhMyFood</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap" rel="stylesheet">
+     <title>OhMyFood</title>
 </head>
 <body>
     <header class="logo">
         <img src="images/logo/ohmyfood.png" alt="logo OhMyFood">
     </header>
-    <div class="location aligncenter">
+    <div href="indexp4.html" class="location aligncenter">
         <i class="fa-solid fa-location-dot"></i>
-        <p>Paris, Belleville</p>
+        <p class="marginL">Paris, Belleville</p>
     </div>
     <main>
         <section class="backgroundgrey center column">
@@ -27,12 +30,15 @@
             <p class="colorwhite">Explorer nos restaurants</p>
         </div>
         </section>
-        <section>
-            <h2>Fonctionnement</h2>
+        <section class="fonctionnement">
+            <div class="tiltle-home-page">
+                <h2>Fonctionnement</h2>
+            </div>
+            <div class="block-filtres">
             <div class="filtres bordericonetitre backgroundfonctionnement">
-                <p class="bordernumber center colorwhite">1</p>
                 <i class="fa-solid fa-mobile-screen-button marginL"></i>
                 <p class="marginL">Choisissez un restaurant</p>
+                <p class="bordernumber center colorwhite">1</p>
             </div>
             <div class="filtres bordericonetitre backgroundfonctionnement">
                 <p class="bordernumber center colorwhite">2</p>
@@ -44,74 +50,91 @@
                 <i class="fa-solid fa-store marginL"></i>
                 <p class="marginL">Dégustez au restaurant</p>
             </div>
+            </div>
         </section>
         <section class="restaurants">
+            <div class="tiltle-home-page">
             <h2>Restaurants</h2>
+            </div>
                 <div class="restaurants-cards">
                     <article class="restaurant-card">
                         <div class="card-content">
+                            <p class="btn-new">Nouveau</p>
                             <div class="imgcontainer">
-                                <img src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Photo plat palette du gout ">
-                             </div>
+                                <a href="page1p4.html"><img src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Photo menu palette du gout">
+                            </div>
                                 <div class="restaurant-card-title">
                                  <h2>La palette du goût</h2>
-                                 <i class="fa-regular fa-heart"></i>
+                                 <i class="fa-regular fa-heart heart-place"></i>
+                                 <i class="fa-solid fa-heart heart-place heart-animate"></i>
                                  <p>Ménilmontant</p>
-                             </div>
-                         </div>
+                            </div>
+                         </div></a>
                     </article>
                     <article class="restaurant-card">
                         <div class="card-content">
+                            <p class="btn-new">Nouveau</p>
                             <div class="imgcontainer">
-                                <img src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="Photo plat la Charonne">
+                                <a href="page2p4.html"><img src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="Photo menu la Charonne">
                             </div>
                                 <div class="restaurant-card-title">
                                     <h2>La note enchantée </h2>
                                     <p>La charonne</p>
-                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-regular fa-heart heart-place"></i>
+                                    <i class="fa-solid fa-heart heart-place heart-animate"></i>
                             </div>
-                        </div>
+                        </div></a>
                     </article>
                     <article class="restaurant-card">
                         <div class="card-content">
                             <div class="imgcontainer">
-                                <img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Photo plat à la française ">
+                                <a href="page3p4.html"><img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Photo menu à la française ">
                              </div>
                                 <div class="restaurant-card-title">
                                  <h2>À la française</h2>
-                                 <i class="fa-regular fa-heart"></i>
-                                 <p>Cité rouge</p>
-                             </div>
-                         </div>
+                                 <i class="fa-regular fa-heart heart-place"></i>
+                                 <i class="fa-solid fa-heart heart-place heart-animate"></i>
+                                 <p>Cité rouge</p> 
+                            </div>
+                         </div></a>
                     </article>
                     <article class="restaurant-card">
                         <div class="card-content">
                             <div class="imgcontainer">
-                                <img src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Photo délice des sens ">
+                                <a href="page4p4.html"><img src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Photo menu délice des sens ">
                              </div>
                                 <div class="restaurant-card-title">
+                                 <i class="fa-regular fa-heart heart-place"></i>
+                                 <i class="fa-solid fa-heart heart-place heart-animate"></i>
                                  <h2>Le délice des sens</h2>
-                                 <i class="fa-regular fa-heart"></i>
                                  <p>Folie-Méricourt</p>
                              </div>
-                         </div>
+                         </div></a>
                     </article>
                 </div>
             </section>
         </main>
     <footer class="backgroundblack colorwhite">
-        <img class="logocolor" src="images/logo/ohmyfood@2x.svg" alt="logo OhMyFood">
-        <div class="ifooter aligncenter">
-             <i class="fa-solid fa-utensils"></i>
-            <p class="marginLfooter">Proposer un restaurant</p>
+        <div class="logocolor">
+            <img class="logosize" src="images/logo/ohmyfood@2x.svg" alt="logo OhMyFood">
         </div>
-        <div class="ifooter aligncenter">
-            <i class="fa-solid fa-handshake"></i>
-             <p class="marginLfooter">Devenir un partenaire</p>
+        <div class="blockfooter">
+            <div class="ifooter aligncenter">
+                 <i class="fa-solid fa-utensils"></i>
+                <p class="marginLfooter">Proposer un restaurant</p>
+            </div>
+            <div class="ifooter aligncenter">
+                <i class="fa-solid fa-handshake"></i>
+                 <p class="marginLfooter">Devenir un partenaire</p>
+             </div>
+            <p>Mentions légales</p>
+            <p>Contact</p>
         </div>
-        <p>Mention légale</p>
-        <p>Contact</p>
     </footer>
-    
 </body>
+<div class="loader animation">
+    <div class="point"></div>
+    <div class="point"></div>
+    <div class="point"></div>
+</div>
 </html>
