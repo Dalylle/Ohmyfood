@@ -444,6 +444,7 @@ p{
     .blockfooter p{
         display: flex;
         align-items: center;
+        margin-right: 10px;
     }
     .logocolor{
         padding-left: 50px;
@@ -455,7 +456,7 @@ p{
     
 
 /* Desktop */
-@media only screen and (max-width: 1440px) and (min-width: 1024px)  {
+@media only screen and (max-width: 1440px) and (min-width: 1200px)  {
     
     .restaurants{
         display: flex;
