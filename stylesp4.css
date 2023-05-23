@@ -287,8 +287,7 @@ a{
     padding: 12px 15px;
 }
 .card-container-check{
-    display: flex;
-    flex-direction: row;
+    position: relative;
     overflow: hidden;
     box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
 }
@@ -330,13 +329,12 @@ p{
    justify-content: end;
 }
 .button-check{
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: #99E2D0;
-    width: 59px;
+    width: 60px;
     border-radius: 0 15px 15px 0;
-    margin-right: -60px;
 }
 .button-check i{
     display: flex;
@@ -348,14 +346,21 @@ p{
     height: 20px;
     border-radius: 50%;
 }
-.card-container-check:hover .button-check {
-    margin-right: 0;
-}
-.card-container:hover {
-    border-radius: 15px 0 0 15px;
-}
 .card-container-check .button-check {
-    transition : margin-right 1s ease-in-out;
+    position: absolute;
+    right: -60px;
+    top: 0;
+    bottom: 0;
+    transition: right .5s ease;
+}
+.card-container-check {
+    transition: padding-right .5s ease;
+}
+.card-container-check:hover {
+    padding-right: 60px;
+}
+.card-container-check:hover .button-check {
+    right: 0;
 }
 .paddingCommand{
     padding-top: 40px;
