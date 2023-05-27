@@ -214,6 +214,13 @@ h1 h2 p {
     font-family: roboto;
     font-size: 16px;
 }
+.blockfooter a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+margin-right: 10px;
+}
 .backgroundblack{
     background-color: #353535;
     padding: 22px 25px;
