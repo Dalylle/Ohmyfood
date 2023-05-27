@@ -281,13 +281,15 @@ a{
 }
 .title-menu .heart-place-menu{
     display: flex;
-    margin-right: 50px;
+    margin-right: 10px;
+    margin-left: 5px;
 }
 .title-menu .heart-animate{
     display: flex;
     position: absolute;
     align-items: center;
-    margin-right: 50px;
+    margin-right: 10px;
+    margin-left: 5px;
     font-size: 20px;
     
 }
